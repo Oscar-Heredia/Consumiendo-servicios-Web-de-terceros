@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="registro">
+        
+        <h2>Ingrese la Latitud:</h2>
+        <input type="number" name="Latitud" id="Latitud">
+
+        <h2>Ingrese la Longitud:</h2>
+        <input type="number" name="Longitud" id="Longitud">
+
+        <br>
+        <button onclick="Mostrar()">Ver</button>
+    </div>
+
+    
+    <div id="clima"></div>
+    <div id="map"></div>
+
+    <script src="./app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+</html>
